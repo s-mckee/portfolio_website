@@ -78,6 +78,10 @@ footer {
     border-radius: 50%;
 }
 
+#self-image:hover {
+    cursor: pointer;
+}
+
 #github-link {
     width: 150px;
     height: auto;
