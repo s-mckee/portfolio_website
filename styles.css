@@ -45,6 +45,10 @@ main {
     font-size: 1.15rem;
 }
 
+main h2 {
+    margin-top: 3rem;
+}
+
 main a {
     color: #fafafa;
 }
