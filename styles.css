@@ -63,10 +63,6 @@ main a:visited {
 }
 
 figure {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 10%;
     text-align: center;
 }
 
@@ -90,4 +86,33 @@ footer {
 #github-link:hover {
     border: 3px solid #ff2400;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 450px) {
+    header {
+        display: block;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav ul {
+        width: 75%;
+        justify-content: center;
+    }
+
+    #social-media h2 {
+        text-align: center;
+    }
+
+    #self-image {
+        width: 150px;
+        height: auto;
+    }
+
+    #github-link {
+        width: 100px;
+        height: auto;
+    }
 }
